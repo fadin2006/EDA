@@ -30,6 +30,17 @@ These datasets contain regional electricity load data with hourly granularity fr
 1. **Wind Turbine SCADA** (Turkey): 2018 SCADA data with wind speed, direction, temperature, and generated power.
 2. **Solar Power Plant** (India): Power generation data with environmental sensor readings (irradiance, temperature, etc.).
 
+### Load Electricity Consumption
+This directory is divided into three subfolders:
+- **America Electricity Consumption**: Includes PJME, PJMW, AEP, Dayton, and NI datasets (hourly).
+- **Tetouan City**: Contains multivariate load data with local weather indicators.
+- **Individual Household**: Submeter-level residential consumption from France with minute-level resolution.
+
+### Energy Generation
+This directory contains:
+- **Solar Energy Power Plant**: India-based solar PV generation and environmental sensor readings.
+- **Wind Energy Power Plant**: SCADA wind turbine dataset from Turkey.
+
 ## Applications
 - Short-term and long-term load forecasting
 - Renewable power prediction (solar, wind)
@@ -37,8 +48,21 @@ These datasets contain regional electricity load data with hourly granularity fr
 - Feature selection and multivariate correlation
 - Comparative benchmarking of forecasting models (ARIMA, LSTM, XGBoost, etc.)
 
+
 ## File Structure
 All datasets are in `.csv` format with consistent timestamps. Each file includes a `datetime` column and respective feature columns.
+
+```plaintext
+Dataset/
+├── Load_Electricity_Consumption/
+│   ├── America_Electricity_Consumption/
+│   ├── Tetouan_City/
+│   └── Individual_Household/
+└── Energy_Generation/
+    ├── Solar_Energy_Power_Plant/
+    └── Wind_Energy_Power_Plant/
+```
+
 
 ## Citation
 Please cite each dataset source individually using the provided BibTeX entries in the `references.bib` file.
