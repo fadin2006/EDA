@@ -54,7 +54,7 @@ All datasets are in `.csv` format with consistent timestamps. Each file includes
 
 ```plaintext
 Dataset/
-├── Load_Electricity_Consumption/
+├── Electricity_Load_Demand/
 │   ├── America_Electricity_Consumption/
 │   ├── Tetouan_City/
 │   └── Individual_Household/
