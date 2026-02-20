@@ -67,9 +67,8 @@ Dataset/
 ## Citation
 Please cite each dataset source individually using the provided BibTeX entries in the `references.bib` file.
 
-## License
-This repository is released under the [MIT License](LICENSE).
+
 
 ---
 
-For questions or collaborations, feel free to open an issue or contact the maintainer.
+For questions or collaborations, feel free to open an issue or contact the maintainer :fahrudin.muna@mail.ugm.ac.id
